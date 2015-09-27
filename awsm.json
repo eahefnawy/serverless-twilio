@@ -1,0 +1,14 @@
+{
+  "name": "awsm-twilio",
+  "version": "0.0.1",
+  "location": "https://github.com/eahefnawy/awsm-twilio",
+  "author": "Eslam A. Hefnawy <eahefnawy@gmail.com>",
+  "description": "JAWS package/Lambda func. to send SMS via Twilio",
+  "resources": {
+    "cloudFormation": {
+      "LambdaIamPolicyDocumentStatements": [],
+      "ApiGatewayIamPolicyDocumentStatements": [],
+      "Resources": {}
+    }
+  }
+}

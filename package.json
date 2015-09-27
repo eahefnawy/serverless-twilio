@@ -1,0 +1,17 @@
+{
+  "name": "twilio-awsm",
+  "version": "0.0.1",
+  "description": "JAWS package/Lambda func. to send SMS via Twilio",
+  "author": "Eslam A. Hefnawy <eahefnawy@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eahefnawy/awsm-twilio"
+  },
+  "keywords": ["JAWS", "AWSM", "AWS Lambda", "twilio", "SMS"],
+  "devDependencies": {},
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "twilio": "^2.5.0",
+  }
+}
