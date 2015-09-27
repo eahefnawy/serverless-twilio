@@ -14,7 +14,7 @@ AUTH_TOKEN=XXX
 ```
 You can test the lambda by sending a JSON similar to...
 
-```json
+```javascript
 {
   "recipient": "+16515556677",  // Any number Twilio can deliver to.
   "sender": "+14506667788",     // A number you bought from Twilio and can use for outbound communication.
