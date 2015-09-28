@@ -12,6 +12,6 @@
   "devDependencies": {},
   "dependencies": {
     "bluebird": "^2.10.1",
-    "twilio": "^2.5.0",
+    "twilio": "^2.4.0"
   }
 }
