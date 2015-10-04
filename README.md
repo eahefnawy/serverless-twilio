@@ -6,7 +6,7 @@ In your JAWS project root directory, run:
 jaws module install https://github.com/eahefnawy/awsm-twilio
 ```
 
-set the following env vars in your JAWS project:
+set the following env vars in your JAWS project: 
 
 ```
 ACCOUNT_SID=XXX
