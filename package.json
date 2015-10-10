@@ -1,6 +1,6 @@
 {
   "name": "awsm-twilio",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "AWSM package for sending sms through twilio.",
   "main": "index.js",
   "repository": {
