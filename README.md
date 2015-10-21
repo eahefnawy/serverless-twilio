@@ -1,4 +1,4 @@
-# :iphone: awsm-twilio
+# :iphone: awsm-twilio 
 
 In your JAWS project root directory, run:
 
