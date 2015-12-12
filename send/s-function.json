@@ -1,0 +1,42 @@
+{
+  "functions": {
+    "Serverless-twilioSend": {
+      "custom": {
+        "excludePatterns": [],
+        "envVars": [
+          "ACCOUNT_SID",
+          "AUTH_TOKEN"
+        ]
+      },
+      "handler": "modules/serverless-twilio/send/handler.handler",
+      "timeout": 6,
+      "memorySize": 1024,
+      "endpoints": {
+        "serverless-twilio/send": {
+          "method": "POST",
+          "authorizationType": "none",
+          "apiKeyRequired": false,
+          "requestParameters": {},
+          "requestTemplates": {
+            "application/json": ""
+          },
+          "responses": {
+            "400": {
+              "statusCode": "400"
+            },
+            "default": {
+              "statusCode": "200",
+              "responseParameters": {},
+              "responseModels": {},
+              "responseTemplates": {
+                "application/json": ""
+              }
+            }
+          }
+        }
+      },
+      "pathFunction": "/Users/eslam/serverless-stuff/real-projects/sandbox/back/modules/serverless-twilio/send/s-function.json",
+      "name": "send"
+    }
+  }
+}
